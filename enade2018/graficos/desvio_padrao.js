@@ -3,7 +3,7 @@
 	"data": {
 		"url": "https://raw.githubusercontent.com/danielmarquesvg/enadata/master/enade2018/dados/media_enade.csv"
   	},
-    "title":"Média da nota geral dos estudantes de acordo com o tipo de instituição",
+    "title":"Desvio Padrão da nota geral dos estudantes do ENADE 2018",
   	"width": "container",
   	"height": "300",
     "config": {
@@ -27,11 +27,11 @@
 	"encoding": {
 		"y": {
 			"axis": {
-				"title": "Média da nota geral",
+				"title": "Desvio padrão",
 				"labelFontSize": 12,
 				"titleFontSize": 12
 			},
-			"field": "media",
+			"field": "desvio_padrao",
 			"type": "quantitative"
 		},
 		"x": {
@@ -76,7 +76,7 @@
 	  		},
   			"encoding": {
 		    	"text": {
-		    		"field": "media",
+		    		"field": "desvio_padrao",
 		    		"type": "quantitative"
 		    	}
   			}
